@@ -1,0 +1,3 @@
+查询表中某字段重复记录大于10000条的记录
+
+select 查询字段 from 表名 group by 查询字段 having count(*)>10000
